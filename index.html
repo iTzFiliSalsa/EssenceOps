@@ -1,49 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
 </head>
+
 <body>
-    <div id="bienvenida">
-        <img src="img/SVG/circulo.svg" id="circulo" alt="">
-        <img src="img/SVG/rectangulo.svg" id="rectangulo" alt="">
-        <div id="arriba">
-                <nav  id="empresa"><a href="">ESSENCEOPS</a></nav>
-                <ul id="lista">
-                    <li>Inicio</li>
-                    <li>Productos</li>
-                    <li>Nosotros</li>
-                </ul>
+        <div id="bienvenida">
+                <img src="img/SVG/circle.svg" id="circuloblanco" alt="">
+                <img src="img/SVG/circle.svg" id="circuloblanc1" alt="">
+                <img src="img/SVG/circle.svg" id="circuloblanc2" alt="">
+                <img src="img/SVG/circulo.svg" id="circulo" alt="">
+                <img src="img/SVG/rectangulo.svg" id="rectangulo" alt="">
+                <div id="arriba">
+                        <nav id="empresa"><a href="">ESSENCEOPS</a></nav>
+                        <ul id="lista">
+                                <li>Inicio</li>
+                                <li>Productos</li>
+                                <li>Nosotros</li>
+                        </ul>
+                </div>
+                <div class="container">
+                        <div id="izq">
+                                <img src="img/principal.png" alt="">
+
+                        </div>
+                        <div id="derecha">
+                                <h1>RELAXANT</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quidem saepe
+                                        dignissimos error? Nobis deleniti repellendus, quam cupiditate aut voluptatem ea
+                                        debitis, at molestiae dolor numquam? Architecto aspernatur odio aut!</p>
+                                <button class="btnPrincipal" href="#producto">¿Que es?</button>
+                        </div>
+
+                </div>
         </div>
-        <div class="container">
-                <h1>RELAXANT</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quidem saepe dignissimos error? Nobis deleniti repellendus, quam cupiditate aut voluptatem ea debitis, at molestiae dolor numquam? Architecto aspernatur odio aut!</p>
-                <button id="btnPrincipal" href="#producto">¿Que es?</button>
+        <div id="producto">
+                <img src="img/SVG/hexagonoIzq.svg" id="prodIzq" alt="">
+                <img src="img/SVG/mitadDerecha.svg" id="prodDer" alt="">
+                <div id="flex">
+                        <div id="izquierda">
+                                <h2 id="aceites">Aceites</h2>
+                                <h1 id="modified">Relaxant</h1>
+                                <p id="textoIzq">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+                                        iure, officia sunt quas, sed placeat nostrum consequuntur veniam beatae
+                                        similique distinctio neque consectetur perspiciatis natus, repudiandae unde non
+                                        architecto eligendi.</p>
+                                <button id="btnSecundario">Comprar</button>
+                        </div>
+                        <div id="derecha">
+                                <img src="img/bote.png" id="bote" alt="">
+                        </div>
+                </div>
         </div>
-    </div> 
-    <div id="producto">
-        <img src="img/SVG/hexagonoIzq.svg" id="prodIzq" alt="">
-        <img src="img/SVG/mitadDerecha.svg" id="prodDer" alt="">
-            <div id="flex">
-                    <div id="izquierda">
-                        <h2 id="aceites">Aceites</h2>
-                        <h1 id="modified">Relaxant</h1>
-                        <p id="textoIzq">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam iure, officia sunt quas, sed placeat nostrum consequuntur veniam beatae similique distinctio neque consectetur perspiciatis natus, repudiandae unde non architecto eligendi.</p>
-                        <button id="btnSecundario" >Comprar</button>
-                    </div>
-                    <div id="derecha">
-                        <img src="img/bote.png" id="bote" alt="">
-                    </div>
-                </div> 
-    </div>
-    <div id="ofrece">
-            <img src="img/SVG/circulo.svg" id="circulo" alt="">
-            <img src="img/SVG/rectangulo.svg" id="rectangulo" alt="">
-        <h1>Aceites</h1>
+        <div id="ofrece">
+                <img src="img/SVG/circle.svg" id="circuloblanco" alt="">
+                <img src="img/SVG/circle.svg" id="circuloblanc1" alt="">
+                <img src="img/SVG/circle.svg" id="circuloblanc2" alt="">
+                <img src="img/SVG/circulo.svg" id="circulo" alt="">
+                <img src="img/SVG/rectangulo.svg" id="rectangulo" alt="">
+                <h1>Sabores</h1>
+                <div id="sabores">
+                        <div id="saboresIzq">
+                                <div class="despro">
+                                        <div class="imgsabores">
+                                                <img src="img/almendra.png" alt="">
+                                        </div>
+                                        <div class="descSabores">
+                                                <h4 id="tAlmendra">Almendra</h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab magnam,
+                                                        perferendis at odio vero dolores ut dignissimos, magn</p>
+                                                <button class="btnPrincipal" id="almendra">Agregar al carrito</button>
+                                        </div>
+                                </div>
+                                <div class="despro">
+                                        <div class="imgsabores">
+                                                <img src="img/aguacate.png" alt="">
+                                        </div>
+                                        <div class="descSabores">
+                                                <h4>Aguacate</h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab magnam,
+                                                        perferendis at odio vero dolores ut dignissimos, magn</p>
+                                                        <button class="btnPrincipal" id="aguacate">Agregar al carrito</button>
+                                        </div>
+                                </div>
+                                <div class="despro">
+                                        <div class="imgsabores">
+                                                <img src="img/Lima.png" alt="">
+                                        </div>
+                                        <div class="descSabores">
+                                                <h4>Lima</h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab magnam,
+                                                        perferendis at odio vero dolores ut dignissimos, magn</p>
+                                                        <button class="btnPrincipal" id="lima">Agregar al carrito</button>
+                                        </div>
+                                </div>
+                        </div>
+                        <div id="saboresDer">
+                                <div class="despro">
+                                        <div class="imgsabores">
+                                                <img src="img/Uvas.png" alt="">
+                                        </div>
+                                        <div class="descSabores">
+                                                <h4>Uvas</h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab magnam,
+                                                        perferendis at odio vero dolores ut dignissimos, magn</p>
+                                                        <button class="btnPrincipal" id="uvas">Agregar al carrito</button>
+                                        </div>
+                                </div>
+                                <div class="despro">
+                                        <div class="imgsabores">
+                                                <img src="img/coco.png" alt="">
+                                        </div>
+                                        <div class="descSabores">
+                                                <h4>Coco</h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab magnam,
+                                                        perferendis at odio vero dolores ut dignissimos, magn</p>
+                                                        <button class="btnPrincipal" id="coco">Agregar al carrito</button>
+                                        </div>
+                                </div>
+                                <div class="despro">
+                                        <div class="imgsabores">
+                                                <img src="img/manzanilla.png" alt="">
+                                        </div>
+                                        <div class="descSabores">
+                                                <h4>Manzanilla</h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab magnam,
+                                                        perferendis at odio vero dolores ut dignissimos, magn</p>
+                                                        <button class="btnPrincipal" id="manzanilla">Agregar al carrito</button>
+                                                </div>
+                                </div>
+
+                        </div>
+                </div>
+
+                <!---
         <div class="presentacion">
             <div class="presIzq">
                     <div class="produ" id="producto1">
@@ -80,31 +175,50 @@
                             </div>
                     </div>
             </div> 
+        </div>-->
         </div>
-    </div>
-    <div id="beneficios">
+        <div id="beneficios">
                 <img src="img/SVG/circulo.svg" id="circulodos" alt="">
                 <img src="img/SVG/rectangulo.svg" id="rectangulodos" alt="">
-            <h1>Beneficios</h1>
-            <div id="benflex">
-                    <div class="beneficio" id="beneficio1">
-                            <img src="img/hair.png" alt="">
-                            <hr>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="beneficio" id="beneficio2">
+                <h1>Beneficios</h1>
+                <div class="benflex">
+                        <div class="beneficio" id="beneficio1">
                                 <img src="img/hair.png" alt="">
-                                <hr>
+                                <h4>Lorem</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
-                    <div class="beneficio" id="beneficio3">
+                        <div class="beneficio" id="beneficio2">
                                 <img src="img/hair.png" alt="">
-                                <hr>   
+                                <h4>Lorem</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
-            </div>
-
-    </div>
-    
+                        <div class="beneficio" id="beneficio3">
+                                <img src="img/hair.png" alt="">
+                                <h4>Lorem</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                </div>
+        </div>
+        <div id="quienes">
+                <h1>Nuestra empresa</h1>
+                <p id="somos">Somos una micro empresa amigable que busca preservar el ambiente, con productos biodegradables enfocados en el cuidado prsonal e higiene, siempre cuidando en no afectar el ecosistema.</p>
+                <div class="benflex">
+                                <div class="beneficio" id="beneficio1">
+                                        <img src="img/mision.png" alt="">
+                                        <h4>Misión</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="beneficio" id="beneficio2">
+                                        <img src="img/vision.png" alt="">
+                                        <h4>Visión</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="beneficio" id="beneficio3">
+                                        <img src="img/justificacino.png" alt="">
+                                        <h4>Justificación</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                        </div>
+        </div>
 </body>
 </html>
